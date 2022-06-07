@@ -1,0 +1,18 @@
+application:
+  openexchangerates:
+    service:
+      url: https://openexchangerates.org/api/
+      app-id: 36992e2590dc43ee900946e7f2fdd856
+      base-currency: USD
+  giphy:
+    service:
+      url: https://api.giphy.com/v1/gifs/
+      app-id: 5SdqtGUV2EowFmLljblPI0YwGDp2w1ue
+      rendition: downsized
+      tag:
+        increase: rich
+        decrease: broke
+        no-change: pokerface
+
+server:
+  port: ${PORT:8080}
