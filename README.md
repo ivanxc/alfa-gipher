@@ -27,4 +27,4 @@ docker run -d -p 777:8080 currency-gipher
 5. Перейти по ссылке http://localhost:777/api/v1/exchange-rate-change?currency=RUB
 
 #### Или
-Перейдите на сайт https://alfa-gipher.herokuapp.com/api/v1/exchange-rate-change?currency=RUB и посмотрите на гифки из браузера 🥰
+Перейдите на сайт https://alfa-gipher.herokuapp.com/api/v1/exchange-rate-change?currency=RUB
